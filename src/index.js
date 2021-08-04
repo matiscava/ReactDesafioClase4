@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import WelcomeClass from './components/WelcomeClass';
+// import WelcomeFunction from './components/WelcomeFunction';
+import App from './components/App';
+
+
+const Titulo = ()=>{
+    return <h1>Lista de Posts</h1>
+}
+
+//renderizo el componenete welcome class
+// ReactDOM.render(<div><WelcomeClass/><WelcomeFunction/></div>, document.getElementById('root'));
+
+//Le agrego una propiedad al WelcomeClass
+// ReactDOM.render(<WelcomeClass nombre='Matias Scavarelli'/>, document.getElementById('root'));
+
+//Le agrego una propiedad al WelcomeFunction
+// ReactDOM.render(<WelcomeFunction nombre='Matias Scavarelli' anios='30'/>, document.getElementById('root'));
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+<App>
+    <Titulo />
+</App>, document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

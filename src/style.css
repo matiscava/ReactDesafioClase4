@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.contenedor{
+    margin: 5px;
+    display: flex;
+    gap:10px;
+    padding: 5px;
+    background-color: darkgray;
+    border-radius: 5px;
+    width: 400px;
+}
+.mensajeLoco{
+    margin: 5px;
+    font-family: sans-serif;
+}
+header{
+    max-width: 100vw;
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    border-bottom: 7px solid rgba(108, 233, 255, 0.933);
+}
+.headerLogoImg{
+    object-fit: contain;
+    height: 100px;
+}
+.headerContenedorLink{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.headerLink{
+    cursor: pointer;
+    padding: 14px 24px;
+    transition:0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-right: solid 1px white;
+    font-weight: 600;
+}
+.headerLink-final{
+    border: 0;
+}
+.headerLink:hover{
+    background-color: violet;
+    text-decoration: underline ;
+    color: yellow;
+    box-shadow: inset 0 0 10px 0px #a26666;
+}
+.headerContenedorSpan{
+    padding: 30px;
+    color: white;
+}
+
+.NavBarSpan{
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.NavBarSpan:hover{
+    color: yellow;
+    text-shadow: 0 0 10px black;
+}
+.listadoItems{
+    margin: 20px;
+    font-family: cursive;
+    color: brown;
+}
